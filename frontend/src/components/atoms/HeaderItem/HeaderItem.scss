@@ -1,0 +1,19 @@
+.header {
+    &_item:not(:first-child) {
+        --inner_l: 16px;
+        border-left: 1px solid #343537;
+      }
+      &_item {
+        margin-left: var(--inner_l);
+        padding-left: calc(var(--inner_l) + var(--icon_size) + 8px);
+        cursor: pointer;
+        transition: color 0.43s;
+      }
+      &_item:before {
+        left: var(--inner_l);
+      }
+      &_item.active,
+      &_item:hover {
+        --color: var(--white);
+      }
+}

@@ -1,0 +1,37 @@
+.footer {
+  margin: 180px 0 48px;
+}
+.footer_net {
+  padding-right: 100px;
+}
+.footer_left {
+  font-weight: 400;
+}
+.footer_cop {
+  color: var(--silver);
+}
+.footer_disclaimer {
+  margin-left: 40px;
+}
+.board {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 770px) {
+  .footer {
+    margin-top: 56px;
+  }
+  .footer_left,
+  .footer_net {
+    flex-direction: column;
+    padding-right: 0;
+  }
+  .footer_soc {
+    order: -1;
+    margin-bottom: 40px;
+  }
+  .footer_disclaimer {
+    margin-top: 16px;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,19 @@
+.elips {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--size);
+  height: var(--size);
+  margin-left: var(--inner);
+  background-color: var(--dark);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.elips:hover svg {
+  transform: scale(1.2);
+}
+.elips svg {
+  width: var(--icon_size);
+  height: var(--icon_size);
+  transition: transform 0.43s;
+}

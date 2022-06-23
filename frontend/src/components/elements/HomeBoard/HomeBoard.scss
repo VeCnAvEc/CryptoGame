@@ -1,0 +1,49 @@
+.board_net {
+    --color: var(--black);
+    padding: 28px 128px 20px 36px;
+    background-color: var(--yellow);
+    border-radius: 24px;
+  }
+  .board_label {
+    margin-top: 24px;
+    font-weight: 500;
+    opacity: 0.5;
+  }
+  .board_btn {
+    margin-top: 40px;
+  }
+  .board_btn .btn:not(:first-child) {
+    margin-left: 24px;
+  }
+  .board_img {
+    --size: 224px;
+    width: var(--size);
+    height: var(--size);
+  }
+  .board_img img {
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+  .board_bottom {
+    --bone_w: 1120px;
+    --bone: 80px;
+  }
+  .board_bottom_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: var(--h4);
+    background-color: #908200;
+    border-radius: 0 0 32px 32px;
+  }
+  .board_bottom_info .icon {
+    padding-left: 32px;
+  }
+  .board_bottom_info .icon:before {
+    left: 0;
+  }
+  .board_bottom_info span {
+    font-weight: 700;
+  }

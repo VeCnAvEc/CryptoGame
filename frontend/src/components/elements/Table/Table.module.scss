@@ -1,0 +1,37 @@
+
+  .table {
+    width: 100%;
+    overflow: scroll;
+    border-collapse: collapse;
+  }
+  .table ._sticky {
+    display: table-row !important;
+    position: sticky;
+    top: 0;
+    width: calc(var(--scroll) + 100%);
+    background-color: var(--black);
+    border-radius: 16px 16px 0 0;
+    outline: 1px solid #212121;
+    z-index: 2;
+  }
+  .table th {
+    --color: var(--silver);
+    height: 56px;
+    padding: 0 16px;
+    font-size: var(--h5);
+    font-weight: 500;
+    text-align: left;
+    border-bottom: 1px solid #212121;
+  }
+  .table td {
+
+  }
+  .table tr:last-child td {
+    border-bottom: 0 none;
+  }
+  .table .center {
+    text-align: center;
+  }
+  .table .right {
+    text-align: right;
+  }

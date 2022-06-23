@@ -1,0 +1,37 @@
+.home_dropdown {
+  margin-top: 72px;
+}
+.home_dropdown_top {
+  padding: 26px 76px 25px 24px;
+  background-color: var(--dark);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.home_dropdown_top:before {
+  right: 28px;
+  transition: transform 0.43s;
+}
+.home_dropdown_top.active:before {
+  transform: rotate(200grad);
+}
+.home_dropdown_info {
+  margin: 0 -4px -4px;
+  padding: 0 4px 4px;
+  transition: .3s;
+  overflow: hidden;
+}
+.home_dropdown_info .home_table {
+  margin-top: 0;
+}
+@media only screen and (max-width: 600px) {
+  .home_dropdown {
+    --bone: 0;
+  }
+  .home_dropdown_top {
+    padding: 22px 90px 21px 24px;
+    border-radius: 0;
+  }
+  .home_dropdown_top:before {
+    right: 16px;
+  }
+}

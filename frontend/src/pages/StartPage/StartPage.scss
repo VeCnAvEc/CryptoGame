@@ -1,0 +1,21 @@
+.table_scroll {
+    overflow: scroll;
+    height: 524px;
+    margin-right: calc(var(--scroll) * -1);
+    margin-bottom: calc(var(--scroll) * -1);
+    /* Hide scrollbar for Chrome, Safari and Opera */
+&::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  }
+  .table td {
+    height: 80px;
+    padding: 0 16px;
+    font-size: var(--h4);
+    font-weight: 700;
+    border-bottom: 1px solid #212121;
+  }

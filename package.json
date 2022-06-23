@@ -1,0 +1,21 @@
+{
+  "name": "cryptomatrixcyberpunk-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hardhat": "^2.9.9"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "dotenv": "^16.0.1",
+    "node-gyp": "^9.0.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}

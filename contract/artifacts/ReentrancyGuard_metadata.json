@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/lottery.sol": "ReentrancyGuard"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/lottery.sol": {
+			"keccak256": "0x58233bca04b60790707bbd838f5abd1dc3b462c737a96ff708faca22e061d9bf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1bc73d6b1384c3d767e97eb0549c371b4c33729fc8a56e5c00856dc9ca0f084f",
+				"dweb:/ipfs/QmNmvc3NZtrZBmqwYobb8DamgghgZPXxq4iJiK5M1GuVzr"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,27 @@
+.header {
+    &_right {
+        margin-left: var(--inner);
+      }
+      @media only screen and (max-width: 1000px) {
+          .header_smart {
+            display: none;
+          }
+          .header_item:not(.icon-wallet) {
+            display: none;
+          }
+          .header_item:not(:first-child) {
+            margin-left: 0;
+            padding-left: 32px;
+            border-left: 0 none;
+          }
+          .header_item:before {
+            left: 0;
+          }
+          .header_logout {
+            display: none;
+          }
+          .bar {
+            display: block;
+          }
+      }
+}

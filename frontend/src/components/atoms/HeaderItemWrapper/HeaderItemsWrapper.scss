@@ -1,0 +1,11 @@
+.header {
+    &__items{
+      --inner_l: 0px;
+      --color: var(--silver);
+      margin-left: var(--inner);
+      height: var(--size);
+      padding: 12px;
+      background-color: var(--dark);
+      border-radius: 40px;
+    }
+}

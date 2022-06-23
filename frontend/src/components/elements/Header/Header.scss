@@ -1,0 +1,16 @@
+.header {
+    --inner: 24px;
+    --size: 48px;
+    --bone_w: 1412px;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background-color: var(--bg);
+    &_net {
+      padding: 24px 0;
+    }
+    &_logo {
+      max-width: 112px;
+    }
+  }
+  
